@@ -1,0 +1,47 @@
+.login-page{
+  height: 100vh;
+  background-color: #F7DA55;
+  .login-from{
+    max-width: 400px;
+    padding: 60px 30px;
+    background-color: #eee;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    .logo-wrapper{
+      position: absolute;
+      top: -54px;
+      background-color: #128A42;
+      border-radius: 50%;
+      width: 90px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      left: 50%;
+      transform: translate(-50%,0);
+      color: white;
+    }
+    .input-wrapper{
+      margin-bottom: 15px;
+      input{
+        height: 40px;
+      }
+    }
+    .btn-submit-wrapper{
+      button{
+        width: 100%;
+        color: white;
+        text-transform: uppercase;
+        background-color: #128A42!important;
+        height: 50px;
+        font-size: 20px;
+        border-color: transparent;
+      }
+    }
+  }
+}

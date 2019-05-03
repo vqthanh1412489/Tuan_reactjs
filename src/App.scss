@@ -1,0 +1,18 @@
+.table-operations{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.ant-table-wrapper{
+  .actions-wrapper{
+    button:first-child{
+      margin-right: 4px;
+    }
+  }
+}
+
+.remove-btn{
+  background-color: #f5222d!important;
+  color: white!important;
+  border-color: #f5222d!important;
+}
